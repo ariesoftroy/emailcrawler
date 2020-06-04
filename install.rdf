@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+
+        <em:id>emailcrawler@torge.kummerow</em:id>
+        <em:name>Email Address Crawler - Kaosmos version</em:name>
+        <em:version>5.1.2</em:version>
+        <em:creator>Torge Kummerow</em:creator>
+        <em:contributor>Paolo "Kaosmos"</em:contributor>
+        <em:updateURL>https://nic-nac-project.org/~kaosmos/update2.rdf</em:updateURL>
+        <em:description>This extension searches your existing e-mails for e-mail addresses and either sends an E-Mail to them or addes them to the address book, so you can make better use of autocompletion.</em:description>
+        <em:targetApplication>
+
+            <Description>
+                <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id> <!-- thunderbird -->
+                    <em:minVersion>60.0</em:minVersion>
+                    <em:maxVersion>60.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+    </Description>
+</RDF>

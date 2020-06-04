@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "applications": {
+    "gecko": {
+      "id": "emailcrawler@torge.kummerow",
+      "strict_min_version": "68.0"
+    }
+  },
+  "name": "Email Address Crawler - Kaosmos version",
+  "description": "This extension searches your existing e-mails for e-mail addresses and either sends an E-Mail to them or addes them to the address book, so you can make better use of autocompletion.",
+  "version": "5.1.2",
+  "icons": {
+    "32": "content/icon32x32.png"
+  },
+  "legacy": {
+    "type": "xul",
+    "options": {
+      "page": "hrome://emailaddresscrawler/content/XULs/messenger_overlay.xul",
+      "open_in_tab": true
+    }
+  },
+  "default_locale": "en_US"
+}
